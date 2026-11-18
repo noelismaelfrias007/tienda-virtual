@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiTienda | Registro</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>MiTienda</h1>
+    <p>Regístrate como cliente</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="formulario.html">Contacto / Registro</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Formulario de registro</h2>
+      <form id="form-registro" action="#" method="post">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez">
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="809-000-0000">
+
+        <label for="categoria">Categoría de interés</label>
+        <select id="categoria" name="categoria">
+          <option>Ropa</option>
+          <option>Tecnología</option>
+          <option>Hogar</option>
+          <option>Deportes</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué buscas"></textarea>
+
+        <button type="submit" class="boton">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 MiTienda. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
