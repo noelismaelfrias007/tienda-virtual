@@ -1,0 +1,111 @@
+/* Paleta: azul oscuro #1e3a5f, naranja #f28c28, gris claro #f4f6f8 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+nav {
+  background-color: #f28c28;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #1e3a5f;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #1e3a5f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Clases */
+.destacado {
+  font-size: 1.1em;
+  color: #1e3a5f;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #f28c28;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #d97614;
+}
+
+/* IDs */
+#bienvenida {
+  text-align: center;
+  border-left: 6px solid #f28c28;
+}
+
+#form-registro label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+#form-registro input,
+#form-registro select,
+#form-registro textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#form-registro button {
+  margin-top: 15px;
+}
